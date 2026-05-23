@@ -4,6 +4,8 @@ Taichu Lab official website — a simple static HTML site deployed via GitHub Pa
 
 **Live:** [https://taichulab.github.io](https://taichulab.github.io)
 
+**Repo:** [https://github.com/taichulab/taichulab.github.io](https://github.com/taichulab/taichulab.github.io)
+
 ## Structure
 
 ```
