@@ -50,9 +50,18 @@
       display: flex; align-items: center; justify-content: space-between;
     }
     .logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
-    .logo img { width: 32px; height: 32px; }
+    .logo img { width: 36px; height: 36px; border-radius: 6px; }
     .logo-text { font-size: 1.1rem; font-weight: 700; color: var(--text); letter-spacing: -0.02em; }
     .logo-text span { color: var(--accent-light); }
+
+    /* ── Hero Logo ── */
+    .hero-logo {
+      width: 96px; height: 96px;
+      margin: 0 auto 2rem;
+      border-radius: 16px;
+      animation: fadeUp 0.7s ease-out;
+      filter: drop-shadow(0 0 30px var(--accent-glow));
+    }
     .nav-links { display: flex; gap: 1.75rem; align-items: center; }
     .nav-links a {
       color: var(--text-secondary); text-decoration: none;
@@ -236,7 +245,7 @@
   <nav>
     <div class="nav-inner">
       <a href="#" class="logo">
-        <img src="assets/favicon.png" alt="Taichu Lab">
+        <img src="assets/org-logo.png" alt="Taichu Lab">
         <span class="logo-text">taichu<span>lab</span></span>
       </a>
       <div class="nav-links">
@@ -250,6 +259,7 @@
   <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
+      <img src="assets/org-logo.png" alt="Taichu Lab" class="hero-logo">
       <h1>Open source tools<br>that <span class="gradient">matter</span></h1>
       <p>Taichu Lab builds developer tools and infrastructure with care, performance, and developer experience in mind.</p>
       <div class="cta-group">
